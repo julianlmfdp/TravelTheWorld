@@ -8,3 +8,7 @@ Route::get('/', function () {
 
 use App\Http\Controllers\SaludoController;
 Route::get('/saludo', [SaludoController::class, 'index']);
+
+use App\Http\Controllers\ProductoController;
+Route::get('/productos', [ProductoController::class, 'index']);
+
