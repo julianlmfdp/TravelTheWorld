@@ -8,6 +8,6 @@ class InicioController extends Controller
 {
     public function index()
     {
-        return view('inicio'); // Cambia 'inicio' por el nombre de tu vista/plantilla Blade
+        return view('inicio');
     }
 }
